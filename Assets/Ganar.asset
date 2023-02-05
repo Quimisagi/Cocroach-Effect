@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2936446a8afbdb44fb8e32710a415f9d, type: 3}
+  m_Name: Ganar
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Aqu\xED tienes tu caf\xE9"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "\xA1Est\xE1 delicioso! \xBFC\xF3mo sab\xEDas que esto era lo que necesitaba?"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xA1Es al magia que sucede en Caf\xE9 Ra\xEDz!"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  nextDialogue: {fileID: 0}
+  finalDialogue: 0
