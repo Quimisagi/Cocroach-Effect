@@ -56,3 +56,5 @@ MonoBehaviour:
     speaker: Calixto
     isQuestion: 0
     options: []
+  nextDialogue: {fileID: 11400000, guid: 35ec4eaed77fdbc4fbf9589b20d12067, type: 2}
+  finalDialogue: 0

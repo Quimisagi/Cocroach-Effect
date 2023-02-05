@@ -22,4 +22,5 @@ MonoBehaviour:
     isQuestion: 0
     options: []
   nextDialogue: {fileID: 0}
-  finalDialogue: 0
+  finalDialogue: 1
+  finalFinalDialogue: 0

@@ -6,6 +6,7 @@ public class Dialogue : ScriptableObject
     public Sentence[] sentences;
     public Dialogue nextDialogue;
     public bool finalDialogue;
+    public bool finalFinalDialogue;
 
 }
 [System.Serializable]

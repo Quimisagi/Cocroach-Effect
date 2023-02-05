@@ -57,7 +57,7 @@ MonoBehaviour:
   - text: "\xA1Le aseguro que los efectos del caf\xE9 lo dejar\xE1 completamente
       asombrado! Despu\xE9s de beberlo podr\xE1 experimentar como sus preocupaciones
       se aten\xFAan."
-    speaker: Calixto
+    speaker: Bartender
     isQuestion: 0
     options: []
   - text: "Vaya, vaya. Ahora s\xED verdaderamente logr\xF3 despertar mi curiosidad."
@@ -75,10 +75,6 @@ MonoBehaviour:
     isQuestion: 0
     options: []
   - text: "La especialidad de esta cafeter\xEDa es la infusi\xF3n de ra\xEDces m\xE1gicas."
-    speaker: Bartender
-    isQuestion: 0
-    options: []
-  - text: 
     speaker: Bartender
     isQuestion: 0
     options: []
@@ -100,9 +96,18 @@ MonoBehaviour:
     speaker: Bartender
     isQuestion: 0
     options: []
+  - text: "Luego escoger  las ra\xEDces adecuadas que aliviar\xE1n sus penas."
+    speaker: Bartender
+    isQuestion: 1
+    options:
+    - answer: " \xBFCu\xE1nto es la ra\xEDz cuadrada de 100?"
+      nextDialogue: {fileID: 11400000, guid: e411cfd6314823d40a85bffd713c27c6, type: 2}
+    - answer: "\xBFDe d\xF3nde nos visita?"
+      nextDialogue: {fileID: 11400000, guid: 6bf590c525e393d41b62d0ae640d6473, type: 2}
+    - answer: "\xBFEs la primera vez que viene a la ciudad? "
+      nextDialogue: {fileID: 11400000, guid: ea2be67c28794a147a23576880be08da, type: 2}
   - text: "Escuchar\xE9 su historia personal e identificar\xE9 las causas de los
-      males que lo atormentan, para as\xED luego escoger  las ra\xEDces adecuadas
-      que aliviar\xE1n sus penas."
+      males que lo atormentan."
     speaker: Bartender
     isQuestion: 0
     options: []
@@ -135,8 +140,8 @@ MonoBehaviour:
     isQuestion: 0
     options: []
   - text: "Para la infusi\xF3n son necesarias tres ra\xEDces, de las cuales debo
-      seleccionar adecuadamente al menos dos de ellas para que \xE9sta sea un \xE9xito
-      y tenga los efectos deseados."
+      seleccionar adecuadamente al menos dos de ellas para que tenga los efectos
+      deseados."
     speaker: Bartender
     isQuestion: 0
     options: []
@@ -169,3 +174,4 @@ MonoBehaviour:
     - answer: "\xBFEs la primera vez que viene a la ciudad? "
       nextDialogue: {fileID: 11400000, guid: ea2be67c28794a147a23576880be08da, type: 2}
   nextDialogue: {fileID: 0}
+  finalDialogue: 0

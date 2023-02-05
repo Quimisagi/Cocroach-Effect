@@ -64,6 +64,10 @@ public class DialogueSystem : MonoBehaviour
                 {
                     SceneManager.LoadScene("Juego");
                 }
+                if (_dialogue.finalFinalDialogue)
+                {
+                    SceneManager.LoadScene("Juego");
+                }
             }
         }
     }
