@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2936446a8afbdb44fb8e32710a415f9d, type: 3}
+  m_Name: Dialogue1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Buen d\xEDa, \xBFPuede usted regalarme un poco de Caf\xE9?"
+    speaker: ???
+    isQuestion: 0
+    options: []
+  - text: "Vengo de muy lejos, y arrim\xE9 a este lugar porque he escuchado muy buenos
+      comentarios."
+    speaker: ???
+    isQuestion: 0
+    options: []
+  - text: "\xA1Buen d\xEDa! Bienvenido a Ra\xEDces, d\xF3nde construimos sue\xF1os
+      y servimos historias. Es todo un placer para m\xED atenderlo el d\xEDa de hoy."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "\xBFSirven historias? Vaya cafeter\xEDa m\xE1s peculiar. \xBFA qu\xE9
+      se refiere con eso?"
+    speaker: ???
+    isQuestion: 0
+    options: []
+  - text: "Perm\xEDtame explicarle, Don...\xBFPodr\xEDa ense\xF1arme tu nombre?"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: Calixto, mi nombre es Calixto.
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Ver\xE1, Don Calixto, en Ra\xEDces hacemos las cosas un poco distintas."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Primero escuchamos a nuestros clientes, sus pensamientos, deseos m\xE1s
+      profundos e historias... "
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Es ah\xED entonces donde le damos forma al caf\xE9, completamente a la
+      medida de la personalidad de sus palabras."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "\xA1Le aseguro que los efectos del caf\xE9 lo dejar\xE1 completamente
+      asombrado! Despu\xE9s de beberlo podr\xE1 experimentar como sus preocupaciones
+      se aten\xFAan."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Vaya, vaya. Ahora s\xED verdaderamente logr\xF3 despertar mi curiosidad."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Pues empecemos de una buena vez. S\xEDrvame un poco de ese dichoso caf\xE9,
+      por favor."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xA1Con todo el gusto! Pero primero perm\xEDtame explicarle un poco sobre
+      el servicio de este negocio."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "La especialidad de esta cafeter\xEDa es la infusi\xF3n de ra\xEDces m\xE1gicas."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: 
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Al combinar el caf\xE9 con la infusi\xF3n adecuada, \xE9ste no s\xF3lo
+      sirve para aliviar los dolores del cuerpo, sino tambi\xE9n los del alma. \xA1Es
+      toda una marvilla!"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Sin embargo debo mencionarle que aqu\xED tenemos una pol\xEDtica particular"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "\xBFUna pol\xEDtica particular? \xBFCu\xE1l es?"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Primero, debo  entender cu\xE1les son ra\xEDces, su historia personal. "
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Escuchar\xE9 su historia personal e identificar\xE9 las causas de los
+      males que lo atormentan, para as\xED luego escoger  las ra\xEDces adecuadas
+      que aliviar\xE1n sus penas."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "\xA1Excelente! Entonces d\xE9jeme contarle sobre m\xED..."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Sin embargo, para averiguar sus ra\xEDces s\xF3lo tengo permitido realizarle
+      un m\xE1ximo de tres preguntas"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "\xBFQu\xE9 dice? \xBFS\xF3lo tres? \xBFS\xF3lo con eso puede averiguar
+      mis ra\xEDces?"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "As\xED es. Se lo garantizo.  Esa es la reputaci\xF3n de nuestro negocio."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Si mis preguntas no fuesen suficientemente consisas simplemente es un
+      caso p\xE9rdido."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Una vez que le haya realizado las tres preguntas, proceder\xE9 a escoger
+      las ra\xEDces perfectas para su infusi\xF3n."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Para la infusi\xF3n son necesarias tres ra\xEDces, de las cuales debo
+      seleccionar adecuadamente al menos dos de ellas para que \xE9sta sea un \xE9xito
+      y tenga los efectos deseados."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Si no aciertro en por lo menos dos de las tres ra\xEDces entonces habr\xE9
+      fallado mi tarea."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Suena complicado...Pero creo que ya fue suficiente explicaci\xF3n."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xBFDe verdad es \xE9ste caf\xE9 tan maravilloso? Quiero probarlo ahora
+      mismo"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Bien. \xA1Entonces perm\xEDtame averiguar sus ra\xEDces!"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: Bueno, para empezar...
+    speaker: Bartender
+    isQuestion: 1
+    options:
+    - answer: " \xBFCu\xE1nto es la ra\xEDz cuadrada de 100?"
+      nextDialogue: {fileID: 11400000, guid: e411cfd6314823d40a85bffd713c27c6, type: 2}
+    - answer: "\xBFDe d\xF3nde nos visita?"
+      nextDialogue: {fileID: 11400000, guid: 6bf590c525e393d41b62d0ae640d6473, type: 2}
+    - answer: "\xBFEs la primera vez que viene a la ciudad? "
+      nextDialogue: {fileID: 11400000, guid: ea2be67c28794a147a23576880be08da, type: 2}
+  nextDialogue: {fileID: 0}

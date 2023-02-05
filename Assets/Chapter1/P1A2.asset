@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2936446a8afbdb44fb8e32710a415f9d, type: 3}
+  m_Name: P1A2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Vengo de la sierra nevada de Santa Marta d\xF3nde se encuentra mi tribu"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "All\xED vivo pacificamente con mi familia, mi gente."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Soy un ind\xEDgena Arhuaco, del pueblo Ika. Fui mamo hace a\xF1os,  pero
+      ahora quiero conocer Colombia.  "
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xBFQu\xE9 es un mamo?"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Son los sabios y gu\xEDas espirituales en nuestras comunidades."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: Somos los responsables de mantener el orden natural del mundo.
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Vaya, entopnces es absolutamente un honor tenerlo por aqu\xED."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: Muchas gracias.
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  nextDialogue: {fileID: 11400000, guid: 2976063958c90314080b2059e5a21b8d, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2936446a8afbdb44fb8e32710a415f9d, type: 3}
+  m_Name: P2A3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Nuestra bebida tradicional es el cachir, la cual es preparada con agua
+      y harina de yuca.
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: La bebemos cuando estamos celebrando dentro de nuestra tribu, pues somos
+      un pueblo muy unido y familiar.
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Me gustar\xEDa probar el cachir."
+    speaker: Bartender.
+    isQuestion: 0
+    options: []
+  - text: Cuando se pase por Santa Marta dele una oportunidad.
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  nextDialogue: {fileID: 11400000, guid: bc4c95344c862f8488c10176b586a873, type: 2}

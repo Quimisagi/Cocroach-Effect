@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2936446a8afbdb44fb8e32710a415f9d, type: 3}
+  m_Name: P2A1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Qu\xE9 bueno que me lo pregunta, porque honestamente no he estado durmiendo
+      para nada bien"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: " He intentado tomar incluso hierbas para mejorar el sue\xF1o pero no veo
+      ning\xFAn efecto."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: Es por eso que he depositado completamente todas mis esperanzas en las
+      infusiones de esta tienda.
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xA1Pues no se va a defraudar! Conozco la ra\xEDz perfecta para curar
+      el insomnio."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Si cura mi insomnio se lo agradecer\xEDa much\xEDsimo."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xA1Cuente con ello!"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  nextDialogue: {fileID: 11400000, guid: bc4c95344c862f8488c10176b586a873, type: 2}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2936446a8afbdb44fb8e32710a415f9d, type: 3}
+  m_Name: P1A1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "No s\xE9 mucho de matem\xE1ticas, pero creo que es 10...\xBFVerdad?"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xA1As\xED es! \xA1Respsuesta correcta!"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "\xA1Lo sab\xEDa!  Era m\xE1s f\xE1cil de lo que pensaba."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Pero por cierto, \xBFEsto le ayudar\xE1 saber qu\xE9 ra\xEDces escoger
+      para mi infusi\xF3n?"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Bueno, la verdad es que no. Es s\xF3lo que no se me ocurri\xF3 ninguna
+      otra pregunta en el momento..."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "\xBFEst\xE1 hablando en serio?"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xA1\xBFYa con esto no acaba de desperdiciar una de las tres preguntas?!"
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xA1Lo siento!, no volver\xE1 a pasar. Pensar\xE9 mejor mis preguntas."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Pens\xE9 que esta cafeter\xEDa era especial, pero parece que todo este
+      tiempo todo fue un enga\xF1o..."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: Mejor pasemos a la siguiente pregunta...
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  nextDialogue: {fileID: 11400000, guid: 2976063958c90314080b2059e5a21b8d, type: 2}

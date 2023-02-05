@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2936446a8afbdb44fb8e32710a415f9d, type: 3}
+  m_Name: P1A3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "S\xED, hab\xEDa estado antes en Manizales, pero jam\xE1s hab\xEDa salido
+      de la Sierra."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: Es la primera vez que visito una ciudad tan grande y tan imponente.
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Y ahora que hablamos de ellos me gustar\xEDa decirle que me asusta un
+      poco el ambiente."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Siento una extra\xF1a energ\xEDa que me otorga desconfianza... "
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "\xBFSer\xE1 acaso por la inseguridad de la ciudad?"
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Por su puesto que eso tambi\xE9n me genera ansiedad, pero definitivamente
+      es algo diferente..."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: Creo que puedo entenderlo...
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  nextDialogue: {fileID: 11400000, guid: 2976063958c90314080b2059e5a21b8d, type: 2}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2936446a8afbdb44fb8e32710a415f9d, type: 3}
+  m_Name: P3A1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Me lo recomend\xF3 mi primo Lorenzo."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Vive en Medell\xEDn hace m\xE1s de 20 a\xF1os, y hab\xEDa visitado este
+      el lugar hace un tiempo."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Cuando se enter\xF3 que yo vendr\xEDa, lo primero que hizo fue recomendarme
+      este caf\xE9."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Me dijo que cambiar\xEDa mi perspectiva de la ciudad y sus personas, y
+      que tambi\xE9n aprender\xEDa algo nuevo."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Lo entiendo muy bien. A m\xED tambi\xE9n me gusta salir de viaje a expandir
+      mis horizontes."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "\xA1Y su primo sabe de lo que habla! Este caf\xE9 es ideal para satisfacerr
+      su apetito de conocimiento."
+    speaker: Bartender
+    isQuestion: 0
+    options: []
+  - text: "Qu\xE9 bien. Ver\xE1 usted, se\xF1or, soy una persona sumamente curiosa
+      y amante del conocimiento."
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: Me encanta leer,  investigar y conocer del mundo
+    speaker: Calixto
+    isQuestion: 0
+    options: []
+  - text: "Desde que pude aprender el espa\xF1ol he buscado la forma de aprender
+      lo m\xE1s posible de la vida que nos rodea  "
+    speaker: Calixto
+    isQuestion: 0
+    options: []

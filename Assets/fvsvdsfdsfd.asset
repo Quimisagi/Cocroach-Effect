@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2936446a8afbdb44fb8e32710a415f9d, type: 3}
+  m_Name: fvsvdsfdsfd
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: bvc
+    isQuestion: 0
+    options: []
+  - text: xcvcbnbmcvnnvccbnbn
+    isQuestion: 0
+    options: []
+  - text: bncbnbn
+    isQuestion: 0
+    options: []
+  - text: "\xBFQuieres pan?"
+    isQuestion: 1
+    options:
+    - answer: "S\xED"
+      nextDialogue: {fileID: 11400000, guid: 4f46bf40534b8b24a9576a9a149e86bf, type: 2}
+    - answer: No
+      nextDialogue: {fileID: 11400000, guid: 316af159fd25fa14782ded57ff3051a7, type: 2}
