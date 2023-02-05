@@ -15,7 +15,7 @@ MonoBehaviour:
   sentences:
   - text: "Mi \xFAltima pregunta es:"
     speaker: Bartender
-    isQuestion: 0
+    isQuestion: 1
     options:
     - answer: "\xBFQui\xE9n le recomend\xF3 nuestro Caf\xE9? "
       nextDialogue: {fileID: 11400000, guid: 447936fe5262f7d4cbd566bfb0c68c3f, type: 2}

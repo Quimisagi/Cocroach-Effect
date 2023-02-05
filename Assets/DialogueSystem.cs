@@ -10,7 +10,7 @@ public class DialogueSystem : MonoBehaviour
     private int _dialogueIndex = 0;
     [SerializeField] private TextMeshProUGUI _GUItext;
     [SerializeField] private TextMeshProUGUI _speakerName;
-    [SerializeField] private float _characterGapTime = 0.2f;
+    private float _characterGapTime = 0.025f;
     private bool _questionMode;
     [SerializeField] private GameObject _answerButtonPrefab;
     [SerializeField] private GameObject _answerButtonsLayout;
