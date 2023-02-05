@@ -59,6 +59,10 @@ public class DialogueSystem : MonoBehaviour
             else if (!_isRunning && !_questionMode)
             {
                 _GUItext.text = "";
+                if (_dialogue.finalDialogue)
+                {
+
+                }
             }
         }
     }
