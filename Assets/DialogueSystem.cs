@@ -14,6 +14,12 @@ public class DialogueSystem : MonoBehaviour
     private bool _questionMode;
     [SerializeField] private GameObject _answerButtonPrefab;
     [SerializeField] private GameObject _answerButtonsLayout;
+    [SerializeField] private Animator _calixtorAnimator;
+
+    [SerializeField] private AudioSource _click;
+    [SerializeField] private AudioClip _calixto;
+    [SerializeField] private AudioClip _bartender;
+
 
     public void Start()
     {
@@ -28,10 +34,12 @@ public class DialogueSystem : MonoBehaviour
             {
                 _GUItext.text = _dialogue.sentences[_dialogueIndex].text;
                 _isRunning = false;
+                _calixtorAnimator.SetBool("isSpeaking", false);
             }
             else if (!_isRunning && (_dialogueIndex < _dialogue.sentences.Length - 1) && !_questionMode)
             {
-                if(_dialogue.nextDialogue != null && _dialogueIndex == _dialogue.sentences.Length - 2)
+                _click.Play();
+                if (_dialogue.nextDialogue != null && _dialogueIndex == _dialogue.sentences.Length - 2)
                 {
                     _dialogue = _dialogue.nextDialogue;
                     _dialogueIndex = 0;
@@ -59,6 +67,19 @@ public class DialogueSystem : MonoBehaviour
         _GUItext.text = "";
         _speakerName.text = _dialogue.sentences[_dialogueIndex].speaker;
         _isRunning = true;
+        if(_dialogue.sentences[_dialogueIndex].speaker == "Calixto" || _dialogue.sentences[_dialogueIndex].speaker == "???")
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = _calixto;
+            this.gameObject.GetComponent<AudioSource>().Play();
+            this.gameObject.GetComponent<AudioSource>().loop = true;
+            _calixtorAnimator.SetBool("isSpeaking", true);
+        }
+        else
+        {
+            this.gameObject.GetComponent<AudioSource>().clip = _bartender;
+            this.gameObject.GetComponent<AudioSource>().Play();
+            this.gameObject.GetComponent<AudioSource>().loop = true;
+        }
         for (int i = 0; i < text.Length; i++)
         {
             if (!_isRunning)
@@ -72,6 +93,8 @@ public class DialogueSystem : MonoBehaviour
             this.DisplayAnswers(_dialogue.sentences[_dialogueIndex]);
         }
         _isRunning = false;
+        _calixtorAnimator.SetBool("isSpeaking", false);
+        this.gameObject.GetComponent<AudioSource>().loop = false;
     }
     private void DisplayAnswers(Sentence question)
     {
@@ -82,12 +105,13 @@ public class DialogueSystem : MonoBehaviour
             answerButton.DialogueSystem = this;
             answerButton.Option = question.options[i];
             go.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = question.options[i].answer;
-            go.transform.parent = _answerButtonsLayout.transform;
+            go.transform.SetParent(_answerButtonsLayout.transform, false);
         }
     }
 
     public void SelectAnswer(Option option)
     {
+        _click.Play();
         _dialogue = option.nextDialogue;
         _dialogueIndex = 0;
         _questionMode = false;
