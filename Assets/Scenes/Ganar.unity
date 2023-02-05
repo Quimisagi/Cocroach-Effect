@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d004c94b551ded4fa66801e140c632f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: {fileID: 11400000, guid: 3e4dbb7655d2bed4f9a8b1c4e5e0f286, type: 2}
+  _dialogue: {fileID: 11400000, guid: 6c55551254bf348449e889588f2e1971, type: 2}
   _GUItext: {fileID: 1464954162}
   _speakerName: {fileID: 1315319891}
   _answerButtonPrefab: {fileID: 8659521806406093170, guid: 8820559c2bf607b41a8f0b3e957dbb25, type: 3}
