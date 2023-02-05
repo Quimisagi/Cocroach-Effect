@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -61,7 +62,7 @@ public class DialogueSystem : MonoBehaviour
                 _GUItext.text = "";
                 if (_dialogue.finalDialogue)
                 {
-
+                    SceneManager.LoadScene("Juego");
                 }
             }
         }
