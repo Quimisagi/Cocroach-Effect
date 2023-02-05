@@ -24,3 +24,4 @@ MonoBehaviour:
     - answer: "H\xE1bleme sobre su relaci\xF3n con la naturaleza"
       nextDialogue: {fileID: 11400000, guid: 87c537086fb4ec14b992fc495eaeda7e, type: 2}
   nextDialogue: {fileID: 0}
+  finalDialogue: 1
